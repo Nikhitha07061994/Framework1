@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: SampleProgramTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.84 sec <<< FAILURE!
+sumTest(SampleProgramTest)  Time elapsed: 0.025 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	sum failed expected [11] but found [16]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at SampleProgramTest.sumTest(SampleProgramTest.java:14)
+

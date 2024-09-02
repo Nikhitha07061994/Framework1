@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Framework1">
+        <classes >
+            <class name="SampleProgramTest">
+              <methods>
+                  <include name="sumTest"></include>
+                 <!-- <exclude name="diffTest"></exclude> -->
+              </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
